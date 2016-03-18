@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Chart the stock market</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+    </head>
+    <body>
+        <canvas id="myChart" width="768" height="400"></canvas>
+        <form>
+            <p class="text text-danger status"></p>
+            <input id="newCode" type="text" placeholder="Input your code" />
+        </form>
+        <ul>
+            <div class="row"></div>
+            </div>
+        </ul>
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+        <script src="./javascripts/Chart.js"></script>
+        <script src="./javascripts/charting.js"></script>
+    </body>
+</html>
